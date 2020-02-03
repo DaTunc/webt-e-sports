@@ -1,0 +1,93 @@
+
+body {
+  background: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  font-size: 20px;
+  color: rgb(156, 186, 247);
+  text-align: center;
+}
+ul{
+  height:100%;
+  background-color: #141420;
+  list-style-type: none;
+  position: fixed;
+  box-shadow: 0 0 25px 0 black;
+  margin-top: -30px;
+  margin-left: -10px;
+  padding-top: 50px;
+
+}
+
+
+li a{
+  color: rgb(209, 227, 253);
+  float: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+#myVideo {
+  position: fixed;
+  margin:0;
+  bottom: 00px;
+  right: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  padding-right: 20px;
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 45%;
+  background: #222233;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120px;
+    color: rgb(156, 186, 247);
+}
+article{
+  position: relative;
+  margin-bottom: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0;
+  padding: 100px;
+  background: #222233;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+    color: rgb(156, 186, 247);
+}
+
+article .left{
+  position: relative;
+  margin-bottom: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0;
+  padding: 100px;
+  background: #222233;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+    color: rgb(156, 186, 247);
+
+}
+article .right{
+  position: relative;
+  margin-bottom: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0;
+  padding: 100px;
+  background: #222233;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+    color: rgb(156, 186, 247);
+}
