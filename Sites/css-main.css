@@ -50,44 +50,56 @@ h1 {
   font-size: 120px;
     color: rgb(156, 186, 247);
 }
+
+button {
+  background-color: #141420;
+  border: none;
+  color: white;
+  padding: 5% 32%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin-bottom: -100%;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+button:hover {
+  background-color: rgb(23, 35, 59);
+  color: white;
+}
+
 article{
   position: relative;
   margin-bottom: 0;
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: 0;
+  margin-top:0 ;
   padding: 100px;
   background: #222233;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
+  font-size: 50px;
     color: rgb(156, 186, 247);
+    display: inline-block;
+}
+article a{
+  display:inline;
+  margin: 0;
+  padding:0;
 }
 
-article .left{
-  position: relative;
-  margin-bottom: 0;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 0;
-  padding: 100px;
-  background: #222233;
+.left{
   text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
-    color: rgb(156, 186, 247);
-
+   padding-right: 45%;
+   display: inline-block;
 }
-article .right{
-  position: relative;
-  margin-bottom: 0;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 0;
-  padding: 100px;
-  background: #222233;
+
+.right{
   text-align: right;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
-    color: rgb(156, 186, 247);
+   padding-left: 45%;
+   display: inline-block;
 }
